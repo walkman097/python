@@ -12,8 +12,8 @@ for sc in score:
 	print(sc);
 
 gender = {"Michael":95, "Bob":85, "Tracy":75};
-for name in names:
+gender["Bart"] = 86;
+for name in gender:
 	print("name is %s, score is %d"%(name ,gender[name]));
-	print("name is", name, "score is", gender[name]);
-
+	
 print(gender.get("Michael"));
